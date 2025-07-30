@@ -10,10 +10,9 @@ export const Navbar = () => {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "#about-us" },
+    { name: "About Us", href: "#what-is-hiraya" },
     { name: "FAQs", href: "#faqs" },
     { name: "Contact Us", href: "#contact-us" },
-    { name: "Testimonials", href: "#testimonials" },
   ];
 
   useEffect(() => {

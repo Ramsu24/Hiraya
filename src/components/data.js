@@ -1,22 +1,12 @@
 
 const benefitOne = {
-  title: "Competitive Advantages",
+  title: "Join us with The Hiraya Way",
   desc: "No worries! We'll guide you every step of the way.",
   bullets: [
     {
       title: "Risk-Free Start ",
       desc: "Zero out-of-pocket costs until you’re earning",
       image: "/img/consult1.png",
-    },
-    {
-      title: "Guaranteed Placement",
-      desc: "Employer sponsor issues your contract upon DOH exam success.",
-      image: "/img/plan.png",
-    },
-    {
-      title: "Ethical Recruitment: ",
-      desc: "Full compliance with Philippine and UAE regulations.",
-      image: "/img/manage.png",
     },
     {
       title: "High Success Rate",
@@ -28,6 +18,17 @@ const benefitOne = {
       desc: "Access to premium hospitals and clinics across Dubai.",
       image: "/img/network.png", // ← add unique icon here
     },
+    {
+      title: "Guaranteed Placement",
+      desc: "Employer sponsor issues your contract upon DOH exam success.",
+      image: "/img/plan.png",
+    },
+    {
+      title: "Ethical Recruitment: ",
+      desc: "Full compliance with Philippine and UAE regulations.",
+      image: "/img/manage.png",
+    },
+    
   ],
 };
 
@@ -51,7 +52,7 @@ const benefitTwo = {
       image: "/img/review.png",
     },
     {
-      title: "4. Secure Sponsorship",
+      title: "4. Perform DataFlow Verification",
       desc: "Get assistance with verification and confidently approach the DOH exam.",
       image: "/img/sponsor.png",
     },

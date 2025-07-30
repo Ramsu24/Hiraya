@@ -7,10 +7,9 @@ import { Container } from "@/components/Container";
 export function Footer() {
   const navigation = [
     { name: "Home", href: "#home" },
-    { name: "About Us", href: "#about-us" },
+    { name: "About Us", href: "#what-is-hiraya" },
     { name: "FAQs", href: "#faqs" },
     { name: "Contact Us", href: "#contact-us" },
-    { name: "Testimonials", href: "#testimonials" },
   ];
 
   const legal = [

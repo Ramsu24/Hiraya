@@ -88,7 +88,7 @@ const faqdata = [
     answer: "The average process takes 4–6 months, depending on exam schedules, document processing, and employer interview timing. Our team will guide you at every stage to keep your deployment on track. Note that this program is for PRC Registered Nurses only.",
   },
   {
-    question: "WHow competitive are Dubai nurse salaries?",
+    question: "How competitive are Dubai nurse salaries?",
     answer: "Salaries for Filipino nurses in Dubai generally range from AED 5,000 to AED 10,000+ per month (Php. 78,000-156,000) TAX-FREE, with benefits that may include housing, health insurance, and annual airfare.",
   },
   {

@@ -62,7 +62,7 @@ export const Hero = () => {
             className="group relative inline-flex items-center justify-center px-8 py-3 text-lg font-semibold text-white bg-amber-400 rounded-lg shadow-lg hover:bg-amber-300 focus:outline-none focus:ring-4 focus:ring-amber-200 transition-all duration-300"
           >
             <span className="absolute inset-0 w-full h-full transform scale-105 bg-amber-300 opacity-0 transition-all duration-300 ease-out group-hover:opacity-100 group-hover:scale-100 rounded-lg"></span>
-            <span className="relative z-10">🌅 Book A Slot Now</span>
+            <span className="relative z-10">Book A Slot Now</span>
           </a>
           <a
             href="https://www.instagram.com/auxesisreview"

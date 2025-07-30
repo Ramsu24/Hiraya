@@ -13,7 +13,7 @@ export const Navbar = () => {
     { name: "About Us", href: "#what-is-hiraya" },
     { name: "FAQs", href: "#faqs" },
     { name: "Contact Us", href: "#contact-us" },
-  ];
+    ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -89,7 +89,7 @@ export const Navbar = () => {
                   : "bg-yellow-400 text-blue-900 hover:bg-yellow-300 shadow-md"
               }`}
             >
-              Get Started
+              Book Now Your Discovery webinar
             </Link>
           </div>
 
@@ -155,7 +155,7 @@ export const Navbar = () => {
                         : "bg-yellow-400 text-blue-900 hover:bg-yellow-300"
                     }`}
                   >
-                    Get Started
+                    Book Now Your Discovery webinar
                   </Link>
                 </Disclosure.Panel>
               </>

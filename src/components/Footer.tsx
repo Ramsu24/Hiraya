@@ -116,6 +116,16 @@ export function Footer() {
                 <Instagram />
               </a>
             </div>
+            
+            {/* Book Now Button */}
+            <div className="mt-8">
+              <Link
+                href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=2oL6x5gizEChlRfKiUssJgG8alKsvA9Ik4XEW8xjkIJUNFQ4M1A3NEVRSUhQMzI0UTBTNlBRRUZRMi4u"
+                className="inline-block px-6 py-3 bg-yellow-400 text-blue-900 font-semibold rounded-lg hover:bg-yellow-300 transition-colors duration-300 shadow-md hover:shadow-lg"
+              >
+                Book Now!
+              </Link>
+            </div>
           </div>
         </div>
 

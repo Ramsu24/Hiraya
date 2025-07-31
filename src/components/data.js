@@ -15,7 +15,7 @@ const benefitOne = {
     },
     {
       title: "Extensive Network",
-      desc: "Access to premium hospitals and clinics across Dubai.",
+      desc: "Access to premium hospitals and clinics across UAE.",
       image: "/img/network.png", // ← add unique icon here
     },
     {
@@ -62,7 +62,7 @@ const benefitTwo = {
       image: "/img/exam.png",
     },
     {
-      title: "6. Deploy to Dubai",
+      title: "6. Deploy to UAE",
       desc: "Finalize visa and travel plans, with alumni support waiting upon arrival.",
       image: "/img/deploy.png",
     },

@@ -81,19 +81,19 @@ export const Faq = () => {
 const faqdata = [
   {
     question: "Is this program truly zero-cost at enrollment?",
-    answer: "Yes. You pay nothing upfront—no review fees, no exam fees, and no placement fees All costs are advanced on your behalf, ensuring a completely cash-free start to your Dubai nursing journey.",
+    answer: "Yes. You pay nothing upfront—no review fees, no exam fees, and no placement fees All costs are advanced on your behalf, ensuring a completely cash-free start to your UAE nursing journey.",
   },
   {
     question: "What is the typical timeline from application to deployment?",
     answer: "The average process takes 4–6 months, depending on exam schedules, document processing, and employer interview timing. Our team will guide you at every stage to keep your deployment on track. Note that this program is for PRC Registered Nurses only.",
   },
   {
-    question: "How competitive are Dubai nurse salaries?",
-    answer: "Salaries for Filipino nurses in Dubai generally range from AED 5,000 to AED 10,000+ per month (Php. 78,000-156,000) TAX-FREE, with benefits that may include housing, health insurance, and annual airfare.",
+    question: "How competitive are UAE nurse salaries?",
+    answer: "Salaries for Filipino nurses in UAE generally range from AED 5,000 to AED 8,000+ per month (Php. 78,000-124,000) TAX-FREE, with benefits that may include housing, health insurance, and annual airfare.",
   },
   {
     question: "How are employers selected for me? ",
     answer:
-      "Our recruitment network evaluates your experience, specialty, and preferences to match you with suitable, reputable Dubai employers. You will receive detailed job offers and contract terms before making any commitment.",
+      "Our recruitment network evaluates your experience, specialty, and preferences to match you with suitable, reputable UAE employers. You will receive detailed job offers and contract terms before making any commitment.",
   },
 ];

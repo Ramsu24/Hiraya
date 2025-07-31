@@ -37,7 +37,7 @@ export function Video({ videoId }: Readonly<VideoProps>) {
             Take the First Step Toward <span className="text-[#eab308]">Your Dream Nursing Career</span>
             </h2>
           <p className="text-lg text-[#2f4b85] max-w-2xl mx-auto">
-            Watch how Hiraya Pathway empowers Filipino nurses with real opportunities in Dubai. Your journey to a better future starts with informed training.
+            Watch how Hiraya Pathway empowers Filipino nurses with real opportunities in UAE. Your journey to a better future starts with informed training.
           </p>
         </div>
 

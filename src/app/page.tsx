@@ -33,7 +33,7 @@ export default function Home() {
               Why choose Hiraya Pathway Training Center
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose a pioneer in bridging Filipino nurses to Dubai healthcare careers
+              Choose a pioneer in bridging Filipino nurses to UAE healthcare careers
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -48,7 +48,7 @@ export default function Home() {
               <Users className="w-10 h-10 text-amber-500 mb-4" />
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Premium Network</h3>
               <p className="text-gray-600">
-                Exclusive ties to 30+ top hospitals and clinics across Dubai
+                Exclusive ties to 30+ top hospitals and clinics across UAE
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border-t-4 border-amber-500">

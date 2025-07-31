@@ -17,7 +17,7 @@ export function AboutUsFeatured({ imageUrl = "/img/nurse1.jpg" }) {
             What is <span className="text-yellow-400">Hiraya Pathway</span> Training Center?
           </h2>
           <p className="text-lg text-[#2f4b85] leading-relaxed">
-            Hiraya Pathway Training Center turns every Filipino nurse&apos;s ambition for an international nursing career into reality—completely cost-free and guaranteed. Through our exclusive partnership with leading Dubai healthcare employers, we fund every step of your journey: from intensive DOH exam review to visa processing, flight booking, and beyond. Upon passing the DOH exam, your employer through Hiraya ensures 100% placement and covers all associated deployment costs, so you embark on your new career with zero financial burden.
+            Hiraya Pathway Training Center turns every Filipino nurse&apos;s ambition for an international nursing career into reality—completely cost-free and guaranteed. Through our exclusive partnership with leading UAE healthcare employers, we fund every step of your journey: from intensive DOH exam review to visa processing, flight booking, and beyond. Upon passing the DOH exam, your employer through Hiraya ensures 100% placement and covers all associated deployment costs, so you embark on your new career with zero financial burden.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export function AboutUsFeatured({ imageUrl = "/img/nurse1.jpg" }) {
                   "Zero-upfront cost program",
                   "12-week intensive DOH exam prep",
                   "Document processing & visa support",
-                  "Guaranteed Dubai employment",
+                  "Guaranteed UAE employment",
                   "Ongoing mentorship program"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-3">

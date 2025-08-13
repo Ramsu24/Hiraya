@@ -89,7 +89,7 @@ export const Navbar = () => {
                   : "bg-yellow-400 text-blue-900 hover:bg-yellow-300 shadow-md"
               }`}
             >
-              Book Now Your Discovery webinar
+              Book Now Your Discovery Webinar
             </Link>
           </div>
 
@@ -155,7 +155,7 @@ export const Navbar = () => {
                         : "bg-yellow-400 text-blue-900 hover:bg-yellow-300"
                     }`}
                   >
-                    Book Now Your Discovery webinar
+                    Book Now Your Discovery Webinar
                   </Link>
                 </Disclosure.Panel>
               </>

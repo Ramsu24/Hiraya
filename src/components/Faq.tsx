@@ -1,10 +1,6 @@
 "use client";
 import React from "react";
-import {
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-} from "@headlessui/react";
+import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
 import { motion, AnimatePresence } from "framer-motion";
 import { SectionTitle } from "@/components/SectionTitle"; // Adjust path if needed
@@ -89,7 +85,7 @@ const faqdata = [
   },
   {
     question: "How competitive are UAE nurse salaries?",
-    answer: "Salaries for Filipino nurses in UAE generally range from AED 5,000 to AED 8,000+ per month (Php. 78,000-124,000) TAX-FREE, with benefits that may include housing, health insurance, and annual airfare.",
+    answer: "Salaries for Filipino nurses in UAE generally range from AED 6,000 to AED 8,000+ per month (Php. 93,000-124,000) TAX-FREE, with benefits that may include housing, health insurance, and annual airfare.",
   },
   {
     question: "How are employers selected for me? ",

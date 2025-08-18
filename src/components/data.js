@@ -19,11 +19,6 @@ const benefitOne = {
       image: "/img/network.png", // ← add unique icon here
     },
     {
-      title: "Guaranteed Placement",
-      desc: "Employer sponsor issues your contract upon DOH exam success.",
-      image: "/img/plan.png",
-    },
-    {
       title: "Ethical Recruitment: ",
       desc: "Full compliance with Philippine and UAE regulations.",
       image: "/img/manage.png",

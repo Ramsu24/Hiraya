@@ -11,7 +11,7 @@ export const Cta = () => {
             Ready to Launch Your UAE Nursing Career?
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Join Hiraya Pathway Training Center today and take that first, cost-free step toward a life-changing opportunity.
+            Join Hiraya Pathway Training Center today and start your DOH Exam Journey with Hiraya Pathway Training Center— training, credentialing guidance, and mentoring.
           </p>
         </div>
       </div>

@@ -16,9 +16,14 @@ export function AboutUsFeatured({ imageUrl = "/img/nurse1.jpg" }) {
           <h2 className="text-4xl font-extrabold text-[#1A2E40] mb-6">
             What is <span className="text-yellow-400">Hiraya Pathway</span> Training Center?
           </h2>
-          <p className="text-lg text-[#2f4b85] leading-relaxed">
-            Hiraya Pathway Training Center turns every Filipino nurse&apos;s ambition for an international nursing career into reality—completely cost-free and guaranteed. Through our exclusive partnership with leading UAE healthcare employers, we fund every step of your journey: from intensive DOH exam review to visa processing, flight booking, and beyond. Upon passing the DOH exam, your employer through Hiraya ensures 100% placement and covers all associated deployment costs, so you embark on your new career with zero financial burden.
-          </p>
+          <div className="space-y-2">
+            <p className="text-lg text-[#2f4b85] leading-relaxed">
+              Hiraya Pathway Training Center is a private training provider offering world-class DOH exam preparation, credentialing/document guidance, and mentoring. Training support options may be available; third-party fees are borne by participants unless covered under separate arrangements outside Hiraya.
+            </p>
+            <p className="text-lg text-[#2f4b85] leading-relaxed">
+              Upon passing required exams, any recruitment and hiring—if applicable—are handled exclusively by DMW-licensed Philippine recruitment agencies and/or UAE employers. Hiraya provides training and guidance only and does not recruit, hire, or deploy workers.
+            </p>
+          </div>
         </div>
 
         {/* Transforming Nursing Careers Bullet Section */}
@@ -44,7 +49,7 @@ export function AboutUsFeatured({ imageUrl = "/img/nurse1.jpg" }) {
                   "Zero-upfront cost program",
                   "12-week intensive DOH exam prep",
                   "Document processing & visa support",
-                  "Guaranteed UAE employment",
+                  "Career pathway support",
                   "Ongoing mentorship program"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-3">

@@ -43,11 +43,9 @@ export const Hero = () => {
         <p className="mt-6 text-lg md:text-xl leading-relaxed text-blue-100 max-w-2xl">
           Step into your UAE nursing career—
           <span className="text-yellow-300 font-semibold">
-            risk-free and employer-funded
+            focused on DOH exam preparation,
           </span>
-          . At Hiraya Pathway Training Center, every step of your journey is
-          covered—from world-class DOH exam prep, PRC verification, and visa
-          processing to flight booking and guaranteed employment.
+          credentialing guidance and program support!
           <br className="hidden md:block" />
           <br className="hidden md:block" />
           <span className="text-yellow-300 font-medium">

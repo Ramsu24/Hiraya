@@ -33,7 +33,7 @@ export default function Home() {
               Why choose Hiraya Pathway Training Center
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose a pioneer in bridging Filipino nurses to UAE healthcare careers
+              Choose a pioneer in supporting Filipino nurses pursuing UAE healthcare careers through exam preparation, credentialing guidance, and mentoring.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -41,21 +41,21 @@ export default function Home() {
               <Briefcase className="w-10 h-10 text-amber-500 mb-4" />
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Risk-Free Advancement</h3>
               <p className="text-gray-600">
-                Zero financial risk. You only pay for the DataFlow Verification and your sponsor advances every cost.
+                Training support options may be available. Participants remain responsible for government/third-party unless covered by separate arrangements outside Hiraya
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border-t-4 border-amber-500">
               <Users className="w-10 h-10 text-amber-500 mb-4" />
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Premium Network</h3>
               <p className="text-gray-600">
-                Exclusive ties to 30+ top hospitals and clinics across UAE
+                Industry collaborations and insights from the UAE healthcare sector inform our curriculum and mentoring; Hiraya does not represent or recruit for any institution.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border-t-4 border-amber-500">
               <CheckCircle className="w-10 h-10 text-amber-500 mb-4" />
               <h3 className="text-2xl font-bold text-gray-800 mb-4">OnGoing Support</h3>
               <p className="text-gray-600">
-                Alumni community and 24/7 assistance throughout your contract.
+                Alumni community and 24/7 assistance throughout your training and beyond.
               </p>
             </div>
           </div>

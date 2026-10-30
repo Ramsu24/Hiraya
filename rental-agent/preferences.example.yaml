@@ -1,0 +1,58 @@
+# Your rental brief. The agent reads this on every run; edit it any time.
+
+you:
+  name: "Jopeth"
+  # What the agent may tell landlords about you. Keep it to things you're happy to share.
+  about: "Working professional in Singapore for a short assignment. Non-smoker, no pets, quiet, tidy, no cooking of strong food."
+  # Shared with landlords only if set (e.g. "+65 9xxx xxxx"). null = never shared.
+  phone_for_landlords: null
+  email_for_landlords: null
+
+search:
+  area: "Jurong West, Singapore"
+  near: ["Boon Lay MRT", "Pioneer MRT", "Lakeside MRT"]
+  acceptable_areas: ["Jurong East", "Tengah", "NTU", "Joo Koon"]
+  move_in: "2026-12-01"
+  move_in_flex_days: 10
+  # 2 months is only legal in a licensed serviced apartment. 3 months opens up condos and co-living.
+  duration_months: 3
+  unit_types: ["master_room", "common_room", "studio"]   # room | master_room | common_room | studio | whole_unit
+  occupants: 1
+  budget_sgd_month:
+    target: 1100   # what the agent aims for
+    max: 1400      # it will never offer more than this
+  must_have: ["aircon", "wifi"]
+  nice_to_have: ["private bathroom", "cooking allowed", "utilities included", "near MRT"]
+  deal_breakers: ["no aircon", "partition"]
+
+negotiation:
+  opening_offer_ratio: 0.88        # first counter ≈ 88% of asking
+  leverage:
+    - "can pay the full 3 months upfront"
+    - "flexible move-in date"
+    - "quiet single tenant, no visitors overnight"
+  approval: approve_first          # auto | approve_first | approve_all
+  max_new_contacts_per_day: 8
+  follow_up_after_hours: 24
+  max_follow_ups: 1
+
+availability:                      # Singapore time. Calls and viewings are only booked inside these.
+  windows:
+    - "Mon-Fri 19:00-21:30"
+    - "Sat-Sun 10:00-18:00"
+  viewing_modes: ["video_call", "phone_call", "in_person"]
+  blackout_dates: []               # e.g. ["2026-11-14"]
+
+sources:
+  web_search: true                 # Claude searches PropertyGuru, 99.co, Carousell, SRX, Roomies, public FB posts...
+  urls:                            # Any search-results page you like; paste the URL after setting filters on the site.
+    # - "https://www.99.co/singapore/rent/rooms?main_category=room&query_ids=dtjurongwest"
+    # - "https://www.carousell.sg/search/room%20rental%20jurong%20west"
+  facebook:
+    enabled: false                 # needs `npm run agent -- login https://www.facebook.com` once
+    group_urls:
+      # - "https://www.facebook.com/groups/<group-id>"
+    marketplace_queries:
+      - "room rent jurong west"
+      - "room rent boon lay"
+  search_every_hours: 6
